@@ -1,0 +1,401 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+#nav-background {
+    background: rgb(241, 242, 242);
+}
+
+.navbar-brand span{
+    color: goldenrod;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Cambo', serif;
+    color: #000;
+    text-shadow: 0px 1px 1px goldenrod;
+    margin-bottom: 5px;
+}
+
+.navbar-toggler  {
+    color: goldenrod;
+}
+.navbar-nav {
+    margin-left: 15px;
+}
+
+.navbar-nav li {
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+
+}
+
+.navbar-nav li:hover {
+    background: gold;
+    border-radius: 5px;
+}
+ 
+#nav-form {
+    background: goldenrod;
+    border: none;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgb(0,0,0,0.2)),  url(./Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home .content {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.content h5 {
+    font-size: 38px;
+    color: #fff;
+    text-shadow: 0px 3px 3px #000;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 3px 3px #000;
+    font-family: 'Cambo', serif;
+    margin-top: 5px;
+    
+}
+
+.content .africa::after {
+    content: '';
+    color: goldenrod;
+    text-shadow: 0px 3px 3px #000 ;
+    animation: changetext 10s infinite linear ;
+    
+}
+
+
+
+
+@keyframes changetext {
+    0%{
+        content: "Nigeria";
+    }
+    10% {
+        content: "South Africa";
+    }
+    20%{
+        content: "Egypt";
+    }
+    30%{
+        content: "Algeria";
+    }
+    40%{
+        content: "Morocco";
+    }
+    50%{
+        content: "united Kingdom";
+    }
+    60%{
+        content: "Finland";
+    }
+    70%{
+        content: "Greece";
+    }
+    80%{
+        content: "Bangkok";
+    }
+    90%{
+        content: "Ecuador";
+    }
+    100%{
+        content: "Guatemala";
+    }
+    
+    
+}
+
+
+
+.content p {
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 0px 1px 1px #000;
+    
+}
+
+.content a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.content a:hover {
+    background: goldenrod;
+    color: #fff;
+}
+
+
+@media (max-width: 850pc) {
+    .home {
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .content h5 {
+        font-size: 24px;
+    }
+    .content h1 {
+        font-size: 38px;
+    }
+    .content p {
+        font-size: 13px;
+    }
+}
+
+.book {
+    background: rgb(241, 242, 242);
+    padding: 50px;
+}
+
+.main-text h1 {
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.main-text h1 span {
+    color: goldenrod;
+}
+
+.book .card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px #000;
+}
+
+.book .row {
+    margin-top: 30px;
+}
+
+.book  input {
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 5px -6px #000;
+    margin-top: 8px;
+}
+
+.book textarea {
+    padding: 10px;
+    border: none ;
+    background: rgb(241, 242, 242);
+    box-shadow: 0px 5px 5px -6px #000;
+    margin-top: 8px;
+    font-weight: 600;
+    height: 200px;
+}
+
+.book .submit {
+    width: 160px;
+    font-size: 18px;
+    background: goldenrod;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.book .submit:hover {
+    background-color: #fff;
+    width: 170px;
+}
+
+.packages {
+    background: rgb(241, 242, 242);
+}
+
+ .main-txt {
+    font-weight: 600;
+    text-shadow: 0px 1px 1px #000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-txt span {
+    color: goldenrod;
+}
+
+
+.packages .card {
+    box-shadow: 0px 5px 5px -6px #000;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.packages img {
+    border-radius: 5px;
+}
+
+.packages .card-body {
+    background: transparent;
+}
+
+.packages .card-body h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.packages .card-body p{ 
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.packages .card-body i {
+    color: goldenrod;
+}
+
+.packages .card-body h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.packages .card-body a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background: goldenrod;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.packages .card-body a:hover {
+    background: #fff;
+    width: 170px;
+    color: goldenrod;
+}
+
+
+.services {
+    background: rgb(241, 242, 242);
+    padding-top: 50px;
+}
+
+.services .card {
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.services .card i {
+    font-size: 80px;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 40px;
+}
+
+
+.services .card h3 {
+    font-weight: 600;
+}
+
+.services .card p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about {
+    background: rgb(241, 242, 242);
+    padding-top: 50px;
+}
+
+.about .card {
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+
+.about .card img {
+    border-radius: 10px;
+}
+
+#agency {
+    box-shadow: 0px 5px 5px -6px #000;
+}
+
+.about h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.about p {
+    font-weight: 700;
+}
+
+#agency button {
+    color: #fff;
+    background: goldenrod;
+    width: 160px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#agency button:hover {
+    background: #fff;
+    color: goldenrod;
+    width: 170px;
+}
+
+
+.footer {
+    padding: 10px;
+    background: rgb(241, 242, 242);
+}
+
+.footer .container-fluid {
+    background: goldenrod;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.footer h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.footer span {
+    color: #fff;
+}
+
+.footer p{
+    font-size: 16px;
+    font-weight: 500;
+}
